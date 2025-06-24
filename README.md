@@ -1,12 +1,55 @@
-# React + Vite
+# 🧑‍💻 Marcos Pérez – Web & Web3 Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for my personal portfolio, developed to showcase my work as a **Fullstack Developer** with a focus on **Web2 and Web3 technologies**.
 
-Currently, two official plugins are available:
+You can view it live at 👉 [https://mpgdev.es](https://mpgdev.es)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – Frontend library
+- **Vite** – Fast build tool
+- **Tailwind CSS** – Utility-first styling
+- **Framer Motion** – Animations
+- **i18next** – Multilingual support (ES / EN / CAT)
+- **JSON-driven content** – Dynamic and scalable
+
+---
+
+## 🎯 Features
+
+- Responsive design
+- Custom animations
+- Dynamic sections (projects, experience, skills)
+- Full support for multiple languages
+- Clean, modern and minimalist interface
+
+---
+
+## 🧩 Sections
+
+- **Hero** – Intro and call to action
+- **About Me** – Background, studies, experience
+- **Portfolio** – Projects (Web2 & Web3), work experience, and skills
+- **Contact** – Custom contact form
+- **Footer** – Simple, clean branding
+
+---
+
+## 🌐 Projects Highlighted
+
+Includes fullstack projects like:
+- [**PymeSync**](https://mpgdev.es/pymesync/login) – SaaS platform for SMEs (budgets, invoices, clients)
+- [**Web3 Staking App**](https://github.com/MarcosPGdev/web3-stakingApp-06) – Smart contract with fixed token staking, rewards and claim system
+- [**El Hombre de las Aguas**](https://elhombredelasaguas.es) – Personal brand site for an open-water swimmer
+
+---
+
+## 📄 License
+
+This project is open source under the [MIT License](LICENSE).
+
+---
+
+Built with 💻 and ☕ by [Marcos Pérez](https://mpgdev.es)
