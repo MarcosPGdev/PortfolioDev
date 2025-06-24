@@ -1,0 +1,18 @@
+#root{
+	width: 100%;
+	place-items: center;
+}
+
+main {
+  max-width: 1500px;
+  width: 100%;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+input, select, textarea, button {
+  font-size: 16px;
+}

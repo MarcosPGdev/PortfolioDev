@@ -1,0 +1,235 @@
+{
+	"header": {
+		"hero": "Inicio",
+		"about": "Sobre mí",
+		"portfolio": "Portfolio",
+		"contact": "Contacto"
+	},
+	"hero": {
+	"title": "Marcos Pérez",
+	"text": "Desarrollo aplicaciones robustas, interfaces intuitivas y soluciones que combinan tecnología, diseño y estrategia. Actualmente me especializo también en desarrollo Web3, integrando blockchain y smart contracts en experiencias modernas.",
+	"specializationsArray": [
+		"Desarrollador Fullstack",
+		"Desarrollador Web3",
+		"Arquitecto de Software",
+		"Diseñador UX/UI"
+	],
+	"projectsButton": "Ver proyectos",
+	"cvButton": "Descargar CV"
+	},
+	"aboutMe": {
+		"title": "Sobre mí",
+		  	"text1": "Soy Marcos Pérez, un Desarrollador Fullstack apasionado por construir aplicaciones web escalables, modernas y ahora también descentralizadas.",
+  			"text2": "Me enfoco en crear experiencias de usuario intuitivas y sistemas backend sólidos usando JavaScript, React, Node.js y frameworks modernos. En el ámbito Web3, desarrollo smart contracts en Solidity y los integro con frontends usando librerías como Ethers.js. Me encanta convertir ideas complejas en soluciones limpias, seguras y mantenibles — desde interfaces elegantes hasta arquitecturas robustas.",
+		"cards": {
+			"graduatedCard": {
+				"icon": "icon-park-solid:degree-hat",
+				"title": "GRADUADO",
+				"sections": [
+					{
+						"title": "UNIVERSITAT OBERTA DE CATALUNYA",
+						"date": "2021-2025",
+						"text": "Graduado en técnicas de interacción digital y multimedia"
+					}
+				]
+			},
+			"experienceCard": {
+				"icon": "ls:bag",
+				"title": "+3 AÑOS DE EXPERIENCIA",
+				"sections": [
+					{
+						"title": "FREELANCE",
+						"time": "6 meses"
+					},
+					{
+						"title": "DESARROLLADOR FULLSTACK",
+						"time": "2,6 años"
+					}
+				]
+			},
+			"lenguagesCard": {
+				"icon": "lucide:languages",
+				"title": "3 IDIOMAS",
+				"sections": [
+					{
+						"icon": "cif:es",
+						"title": "ESPAÑOL",
+						"level": "Nativo"
+					},
+					{
+						"icon": "flag:es-ct-4x3",
+						"title": "CATALÁN",
+						"level": "Nativo"
+					},
+					{
+						"icon": "flagpack:gb-ukm",
+						"title": "INGLÉS",
+						"level": "B2"
+					}
+				]
+			}
+		}
+	},
+	"portfolio": {
+		"title": "Portfolio",
+		"selectorButtons": {
+			"projects": "Proyectos",
+			"experience": "Experiencia",
+			"skills": "Tecnologías"
+		},
+		"projects": [
+			{
+				"title": "PymeSync",
+				"description": "Una plataforma SaaS diseñada para que las pequeñas empresas gestionen presupuestos, cotizaciones y facturas con facilidad.",
+				"stack": ["React", "Node.js", "Express", "MySQL"],
+				"image": "/portfolio/projects/pymesync.webp",
+				"buttons": [
+					{
+						"url": "https://mpgdev.es/pymesync/login",
+						"label": "Ver demo"
+					},
+					{
+						"url": "https://github.com/MarcosPGdev/PymeSync-frontend",
+						"label": "Github Frontend"
+					},
+					{
+						"url": "https://github.com/MarcosPGdev/PymeSync-backend",
+						"label": "Github Backend"
+					}
+				]
+			},
+			{
+				"title": "El Hombre de las Aguas",
+				"description": "Sitio web de marca personal creado de forma altruista para Alberto Lorente, un nadador con fines benéficos.",
+				"stack": ["Astro", "CSS", "JavaScript"],
+				"image": "/portfolio/projects/elhombredelasaguas.webp",
+				"buttons": [
+					{
+						"url": "https://elhombredelasaguas.es",
+						"label": "Ver demo"
+					}
+				]
+			},
+			{
+				"title": "Dev Portfolio",
+				"description": "Portfolio personalizado para mostrar mi trabajo, habilidades y personalidad. Con contenido dinámico, animaciones suaves y soporte multilingüe.",
+				"stack": ["React", "Tailwind CSS", "Framer Motion", "i18next"],
+				"image": "/portfolio/projects/portfolio-home.webp",
+				"buttons": [
+					{
+						"url": "https://mpgdev.es",
+						"label": "Ver portfolio"
+					}
+				]
+			},
+			{
+				"title": "Staking App (Web3)",
+				"description": "Aplicación de staking basada en contratos inteligentes desarrollados en Solidity. Permite a los usuarios depositar tokens ERC-20, acumular recompensas en función del tiempo y retirarlas de forma segura.",
+				"stack": ["Solidity", "OpenZeppelin", "Foundry", "Node.js"],
+				"image": "/portfolio/projects/stakingApp.webp",
+				"buttons": [
+					{
+					"url": "https://github.com/MarcosPGdev/web3-stakingApp-06",
+					"label": "GitHub"
+					}
+				]
+			}
+		],
+
+		"experiences": [
+			{
+				"title": "Desarrollador Fullstack",
+				"company": "Freelance",
+				"date": "Mar 2025 – Actualidad",
+				"description": "Trabajando en proyectos personales y desarrollando sitios web y software a medida bajo demanda."
+			},
+			{
+				"title": "Desarrollador Fullstack",
+				"company": "Metaloconstrucciones MECOSA S.L.",
+				"date": "Feb 2023 – Mar 2025",
+				"description": "Automatización de procesos internos, generación de presupuestos, gestión de pedidos y desarrollo de CRM."
+			}
+		],
+		"skills": [
+			{
+				"image": "/portfolio/skills/frontend/html1.svg",
+				"title": "HTML"
+			},
+			{
+				"image": "/portfolio/skills/frontend/css.svg",
+				"title": "CSS"
+			},
+			{
+				"image": "/portfolio/skills/frontend/javaScript.png",
+				"title": "JavaScript"
+			},
+			{
+				"image": "/portfolio/skills/frontend/php.png",
+				"title": "PHP"
+			},
+			{
+				"image": "/portfolio/skills/frontend/react.png",
+				"title": "React"
+			},
+			{
+				"image": "/portfolio/skills/frontend/tailwind.png",
+				"title": "Tailwind"
+			},
+			{
+				"image": "/portfolio/skills/frontend/astro.svg",
+				"title": "Astro"
+			},
+			{
+				"image": "/portfolio/skills/web3/solidity.svg",
+				"title": "Solidity"
+			},
+			{
+				"image": "/portfolio/skills/backend/nodejs.png",
+				"title": "Node.js"
+			},
+			{
+				"image": "/portfolio/skills/backend/expressjs.png",
+				"title": "Express.js"
+			},
+			{
+				"image": "/portfolio/skills/backend/mysql.png",
+				"title": "MySQL"
+			},
+			{
+				"image": "/portfolio/skills/backend/postgreSQL.png",
+				"title": "PostgreSQL"
+			}
+		]
+	},
+	"contact": {
+		"title": "Contacto",
+		"connect": {
+			"subtitle": "Conectemos",
+			"text": "No dudes en contactarme a través de cualquiera de las plataformas de abajo.",
+			"footer": "Normalmente respondo en menos de 24h."
+		},
+		"contact": {
+			"subtitle": "Contáctame",
+			"inputs": {
+				"name": {
+					"placeholder": "Nombre",
+					"required": "El nombre es obligatorio"
+				},
+				"email": {
+					"placeholder": "Correo electrónico",
+					"required": "El correo electrónico es obligatorio",
+					"invalid": "El correo debe tener un formato válido (ej: usuario@dominio.com)"
+				},
+				"message": {
+					"placeholder": "Mensaje",
+					"required": "El mensaje es obligatorio",
+					"min": "El mensaje debe tener al menos 10 caracteres"
+				}
+			},
+			"button": "Enviar mensaje"
+		}
+	},
+	"footer":{
+		"rights":"Marcos Pérez. Todos los derechos reservados."
+	}
+}

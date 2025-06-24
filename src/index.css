@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+	--font-display: 'Poppins', sans-serif;
+	--color-primary: #8E44EC;
+	--color-secondary: #00E6FF;
+	--color-background: #0B0A1F;
+	--color-background2: #1A152E;
+	--color-background3: #1F1A35;
+	--color-text: #C1BFD6;
+	--color-white: #FFFFFF;
+	--color-black: #000000;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer components {
+	.section-height{
+		height: 100dvh;
+		min-height: fit-content;
+	}
+	.card {
+	  	position: relative;
+	  	overflow: hidden;
+	  	border-radius: 10px;
+	  	padding: 1.5rem;
+	  	color: var(--color-text);
+	}
+
+	.button{
+		position: relative;
+	  	overflow: hidden;
+	  	border-radius: 5px;
+		padding: .5rem 1rem;
+		cursor:pointer;
+	}
+
+
+   	@keyframes float-bottom {
+		0%, 100% {
+		transform: translateY(0);
+		}
+		50% {
+		transform: translateY(-15px);
+		}
+	}
+
+    @keyframes float-top {
+		0%, 100% {
+		transform: translateY(0);
+		}
+		50% {
+		transform: translateY(15px);
+		}
+	}
+
+	.animate-float-top {
+		animation: float-top 4s ease-in-out infinite;
+	}
+
+	.animate-float-bottom {
+		animation: float-bottom 4s ease-in-out infinite;
+	}
+
+}

@@ -1,0 +1,209 @@
+{
+	"header":{
+		"hero":"Home",
+		"about":"About me",
+		"portfolio":"Portfolio",
+		"contact":"Contact"
+	},
+  	"hero": {
+    	"title": "Marcos Pérez",
+		"text":"I develop robust applications, intuitive interfaces, and solutions that combine technology, design, and strategy.",
+    	"specializationsArray": [
+			"Fullstack Developer",
+			"Software Architect",
+			"UX/UI Designer"
+		],
+		"projectsButton": "View projects",
+		"cvButton": "Download CV"
+  	},
+  	"aboutMe":{
+		"title":"About me",
+		"text1": "I’m Marcos Pérez, a Fullstack Developer passionate about building scalable and modern web applications that feel as good as they work.",
+		"text2": "My focus is on crafting intuitive user experiences and solid backend systems using JavaScript, React, Node.js, and modern frameworks. I love turning complex ideas into clean, maintainable solutions — from designing elegant interfaces to engineering robust architectures.",
+		
+		"cards": {
+			"graduatedCard": {
+				"icon": "icon-park-solid:degree-hat",
+				"title":"GRADUATED",
+				"sections":[
+					{
+						"title":"UNIVERSITAT OBERTA DE CATALUNYA",
+						"date":"2021-2025",
+						"text":"Graduated in digital interaction thecnics and multimedia"
+					}
+				]
+			},
+			"experienceCard":{
+				"icon":"ls:bag",
+				"title":"+3 YEARS OF EXPERIENCE",
+				"sections":[
+					{
+						"title":"FREELANCE",
+						"time":"6 months"
+					},
+					{
+						"title":"FULLSTACK DEVELOPER",
+						"time":"2.6 years"
+					}
+				]
+			},
+			"lenguagesCard":{
+				"icon":"lucide:languages",
+				"title":"3 LENGUAGES",
+				"sections":[
+					{
+						"icon":"cif:es",
+						"title":"SPANISH",
+						"level":"Native"
+					},
+					{
+						"icon":"flag:es-ct-4x3",
+						"title":"CATALAN",
+						"level":"Native"
+					},
+					{
+						"icon":"flagpack:gb-ukm",
+						"title":"ENGLISH",
+						"level":"B2"
+					}				
+				]
+			}
+		}
+	},
+	"portfolio":{
+		"title":"Portfolio",
+		"selectorButtons": {
+			"projects":"Projects",
+			"experience":"Experience",
+			"skills":"Skills"
+		},
+		"projects":[
+			{
+				"title": "PymeSync",
+				"description": "A SaaS platform designed for small businesses to manage budgets, quotes and invoicing with ease.",
+				"stack": ["React", "Node.js", "Express", "MySQL"],
+				"image": "/portfolio/projects/pymesync.webp",
+				"demo":{
+					"demoUrl": "https://mpgdev.es/pymesync/login",
+					"label": "View demo"
+				},
+				"githubUrl": "#"
+			},
+			{
+				"title": "El Hombre de las Aguas",
+  				"description": "Personal brand website created altruistically for Alberto Lorente, a swimmer with charitable goals.",
+				"stack": ["Astro", "CSS", "JavaScript"],
+				"image": "/portfolio/projects/elhombredelasaguas.webp",
+				"demo":{
+					"demoUrl": "https://elhombredelasaguas.es",
+					"label": "View demo"
+				}
+			},
+			{
+				"title": "Dev Portfolio",
+				"description": "Custom portfolio built to showcase my work, skills and personality. Features dynamic content, smooth animations and multilingual support.",
+				"stack": ["React", "Tailwind CSS", "Framer Motion", "i18next"],
+				"image": "/portfolio/projects/portfolio-home.webp",
+				"demo": {
+					"demoUrl": "https://mpgdev.es",
+					"label": "View portfolio"
+				}
+			}
+		],
+		"experiences":[
+			{
+				"title": "Fullstack Developer",
+				"company": "Freelance",
+				"date": "Mar 2025 – Present",
+				"description": "Working on personal projects and building websites and custom software on demand."
+			},
+			{
+				"title": "Fullstack Developer",
+				"company": "Metaloconstrucciones MECOSA S.L.",
+				"date": "Feb 2023 – Mar 2025",
+				"description": "Automation of internal processes, budget generation, order management, and CRM development."
+			}
+		],
+		"skills":[
+			{
+				"image": "/portfolio/skills/frontend/html1.svg",
+				"title": "HTML"
+			},
+			{
+				"image": "/portfolio/skills/frontend/css.svg",
+				"title": "CSS"
+			},
+			{
+				"image": "/portfolio/skills/frontend/javaScript.png",
+				"title": "JavaScript"
+			},
+			{
+				"image": "/portfolio/skills/frontend/php.png",
+				"title": "PHP"
+			},
+			{
+				"image": "/portfolio/skills/frontend/react.png",
+				"title": "React"
+			},
+			{
+				"image": "/portfolio/skills/frontend/tailwind.png",
+				"title": "Tailwind"
+			},
+			{
+				"image": "/portfolio/skills/frontend/astro.svg",
+				"title": "Astro"
+			},
+			{
+				"image": "/portfolio/skills/web3/solidity.svg",
+				"title": "Solidity"
+			},
+			{
+				"image": "/portfolio/skills/backend/nodejs.png",
+				"title": "Node.js"
+			},
+			{
+				"image": "/portfolio/skills/backend/expressjs.png",
+				"title": "Express.js"
+			},
+			{
+				"image": "/portfolio/skills/backend/mysql.png",
+				"title": "MySQL"
+			},
+			{
+				"image": "/portfolio/skills/backend/postgreSQL.png",
+				"title": "PostgreSQL"
+			}
+		]
+	},
+	"contact":{
+		"title":"Get in touch",
+		"connect":{
+			"subtitle":"Let's connect",
+			"text": "Feel free to contact me through any platform below.",
+			"footer":"I usually reply within 24h."
+		},
+		"contact":{
+			"subtitle":"Contact with me",
+			"inputs": {
+				"name": {
+					"placeholder": "Name",
+					"required": "Name is required"
+				},
+				"email": {
+					"placeholder": "Email",
+					"required": "Email is required",
+					"invalid": "Email must be in a valid format (e.g., user@domain.com)"
+				},
+				"message": {
+					"placeholder": "Message",
+					"required": "Message is required",
+					"min": "Message must be at least 10 characters"
+				}
+			},
+			"button":"Send message"
+		}
+	},
+	"footer":{
+		"rights":"Marcos Pérez. All rights reserved."
+	}
+}

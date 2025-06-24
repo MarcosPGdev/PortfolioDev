@@ -1,0 +1,174 @@
+{
+	"header": {
+		"hero": "Inici",
+		"about": "Sobre mi",
+		"portfolio": "Portfoli",
+		"contact": "Contacte"
+	},
+	"hero": {
+		"title": "Marcos Pérez",
+		"text": "Desenvolupo aplicacions robustes, interfícies intuïtives i solucions que combinen tecnologia, disseny i estratègia.",
+		"specializationsArray": [
+			"Desenvolupador Fullstack",
+			"Arquitecte de Programari",
+			"Dissenyador UX/UI"
+		],
+		"projectsButton": "Veure projectes",
+		"cvButton": "Descarregar CV"
+	},
+	"aboutMe": {
+		"title": "Sobre mi",
+		"text1": "Soc en Marcos Pérez, un Desenvolupador Fullstack apassionat per construir aplicacions web escalables i modernes que funcionin tan bé com es veuen.",
+		"text2": "Em centro en crear experiències d'usuari intuïtives i sistemes backend sòlids amb JavaScript, React, Node.js i frameworks moderns. M'encanta transformar idees complexes en solucions netes i mantenibles — des del disseny d'interfícies elegants fins a l'enginyeria d'arquitectures robustes.",
+		"cards": {
+			"graduatedCard": {
+				"icon": "icon-park-solid:degree-hat",
+				"title": "GRADUAT",
+				"sections": [
+					{
+						"title": "UNIVERSITAT OBERTA DE CATALUNYA",
+						"date": "2021-2025",
+						"text": "Graduat en tècniques d'interacció digital i multimèdia"
+					}
+				]
+			},
+			"experienceCard": {
+				"icon": "ls:bag",
+				"title": "+3 ANYS D'EXPERIÈNCIA",
+				"sections": [
+					{
+						"title": "FREELANCE",
+						"time": "6 mesos"
+					},
+					{
+						"title": "DESENVOLUPADOR FULLSTACK",
+						"time": "2,6 anys"
+					}
+				]
+			},
+			"lenguagesCard": {
+				"icon": "lucide:languages",
+				"title": "3 IDIOMES",
+				"sections": [
+					{
+						"icon": "cif:es",
+						"title": "CASTELLÀ",
+						"level": "Natiu"
+					},
+					{
+						"icon": "flag:es-ct-4x3",
+						"title": "CATALÀ",
+						"level": "Natiu"
+					},
+					{
+						"icon": "flagpack:gb-ukm",
+						"title": "ANGLÈS",
+						"level": "B2"
+					}
+				]
+			}
+		}
+	},
+	"portfolio": {
+		"title": "Portfoli",
+		"selectorButtons": {
+			"projects": "Projectes",
+			"experience": "Experiència",
+			"skills": "Tecnologies"
+		},
+		"projects": [
+			{
+				"title": "PymeSync",
+				"description": "Una plataforma SaaS dissenyada perquè les petites empreses gestionin pressupostos, pressupostos i factures amb facilitat.",
+				"stack": ["React", "Node.js", "Express", "MySQL"],
+				"image": "/portfolio/projects/pymesync.webp",
+				"demo": {
+					"demoUrl": "https://mpgdev.es/pymesync/login",
+					"label": "Veure demo"
+				},
+				"githubUrl": "#"
+			},
+			{
+				"title": "El Hombre de las Aguas",
+				"description": "Lloc web de marca personal creat altruistament per a l’Alberto Lorente, un nedador amb objectius benèfics.",
+				"stack": ["Astro", "CSS", "JavaScript"],
+				"image": "/portfolio/projects/elhombredelasaguas.webp",
+				"demo": {
+					"demoUrl": "https://elhombredelasaguas.es",
+					"label": "Veure demo"
+				}
+			},
+			{
+				"title": "Dev Portfolio",
+				"description": "Portfolio personalitzat per mostrar la meva feina, habilitats i personalitat. Inclou contingut dinàmic, animacions suaus i suport multilingüe.",
+				"stack": ["React", "Tailwind CSS", "Framer Motion", "i18next"],
+				"image": "/portfolio/projects/portfolio-home.webp",
+				"demo": {
+					"demoUrl": "https://mpgdev.es",
+					"label": "Veure portfolio"
+				}
+			}
+		],
+		"experiences": [
+			{
+				"title": "Desenvolupador Fullstack",
+				"company": "Freelance",
+				"date": "Març 2025 – Actualitat",
+				"description": "Treballant en projectes personals i desenvolupant llocs web i programari a mida segons demanda."
+			},
+			{
+				"title": "Desenvolupador Fullstack",
+				"company": "Metaloconstrucciones MECOSA S.L.",
+				"date": "Febrer 2023 – Març 2025",
+				"description": "Automatització de processos interns, generació de pressupostos, gestió de comandes i desenvolupament de CRM."
+			}
+
+		],
+		"skills": [
+			{ "image": "/portfolio/skills/frontend/html1.svg", "title": "HTML" },
+			{ "image": "/portfolio/skills/frontend/css.svg", "title": "CSS" },
+			{ "image": "/portfolio/skills/frontend/javaScript.png", "title": "JavaScript" },
+			{ "image": "/portfolio/skills/frontend/php.png", "title": "PHP" },
+			{ "image": "/portfolio/skills/frontend/react.png", "title": "React" },
+			{ "image": "/portfolio/skills/frontend/tailwind.png", "title": "Tailwind" },
+			{ "image": "/portfolio/skills/frontend/astro.svg", "title": "Astro" },
+			{ "image": "/portfolio/skills/web3/solidity.svg", "title": "Solidity" },
+			{ "image": "/portfolio/skills/backend/nodejs.png", "title": "Node.js" },
+			{ "image": "/portfolio/skills/backend/expressjs.png", "title": "Express.js" },
+			{ "image": "/portfolio/skills/backend/mysql.png", "title": "MySQL" },
+			{ "image": "/portfolio/skills/backend/postgreSQL.png", "title": "PostgreSQL" }
+		]
+	},
+	"contact": {
+		"title": "Contacte",
+		"connect": {
+			"subtitle": "Connectem",
+			"text": "No dubtis a contactar amb mi a través de qualsevol plataforma a continuació.",
+			"footer": "Normalment responc en menys de 24 hores."
+		},
+		"contact": {
+			"subtitle": "Contacta amb mi",
+			"inputs": {
+				"name": {
+					"placeholder": "Nom",
+					"required": "El nom és obligatori"
+				},
+				"email": {
+					"placeholder": "Correu electrònic",
+					"required": "El correu electrònic és obligatori",
+					"invalid": "El correu ha de tenir un format vàlid (ex: usuari@domini.com)"
+				},
+				"message": {
+					"placeholder": "Missatge",
+					"required": "El missatge és obligatori",
+					"min": "El missatge ha de tenir com a mínim 10 caràcters"
+				}
+			},
+
+			"button": "Enviar missatge"
+		}
+	},
+	"footer":{
+		"rights":"Marcos Pérez. Tots els drets reservats."
+	}
+}
